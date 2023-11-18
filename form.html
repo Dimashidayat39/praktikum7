@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+            
+        }
+        input {
+            float: right;
+        }
+        h2{
+            text-align: center;
+        }
+       
+        .form-group{
+            margin-bottom: 10px;
+        }
+        
+        .form-container{
+            background-color: rgb(209, 208, 218);
+            border: 2px solid rgb(2, 8, 12);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(135, 141, 158);
+            padding: 30px;
+            width: 300px;
+            margin: 100px auto;
+        }
+       
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>FROM ENTRY DATA PEGAWAI</h2>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="NIK">NIK</label>
+                <input id="NIK" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="NAMA">nama</label>
+                <input id="NAMA" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="TTL">Tempat lahir</label>
+                <input id="TTL" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="TL">Tanggal lahir</label>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label for="Alamat">Alamat</label>
+                <input id="Alamat" type="text">
+            </div>
+             
+            <div class="form-group">
+                <label for="No telepon">No telepon</label>
+                <input id="No telepon" type="number">
+            </div>
+            
+            <div class="form-group">
+                <label for="Jabatan">Jabatan</label>
+                <input id="Jabatan" type="option">
+            </div>
+            
+            <div class="form-group">
+                <label for="Status">Status</label>
+                <input id="Status" type="option">
+            </div>
+            <button type="submit" name="submit" value="">submit</button>
+            
+
+        </form>
+
+    </div>
+</body>
+</html>
